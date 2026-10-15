@@ -28,8 +28,3 @@ Python 3.9 venvs · TensorFlow (CPU), TFLite Runtime, OpenCV.
 python3 -m venv tf-env        # training env: TensorFlow, NumPy, OpenCV
 python3 -m venv tflite-env    # separate inference env: tflite-runtime, OpenCV
 ```
-
-## Status
-> ⚠️ Source not yet added. This repo currently holds the report/README only.
-> Add: `train.py` (CNN + training), `convert_tflite.py`, `infer_camera.py`
-> (capture → preprocess → TFLite → Sense HAT), and `requirements.txt`.
